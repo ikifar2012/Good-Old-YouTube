@@ -1,0 +1,13 @@
+      {
+        "name": "Good Old YouTube",
+        "manifest_version": 2,
+        "version": "1.0",
+        "permissions": [
+          "cookies",
+          "*://*.youtube.com/"
+        ],
+        "background": {
+          "scripts": ["cookies.js"],
+          "persistent": false
+        }
+      }
